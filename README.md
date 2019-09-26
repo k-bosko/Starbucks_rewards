@@ -2,9 +2,13 @@
 
 # Requirements
 seaborn==0.9.0
+
 numpy==1.16.4
+
 pandas==0.25.0
+
 matplotlib==3.1.0
+
 scikit_learn==0.21.3
 
 # Motivation
@@ -15,6 +19,7 @@ In this project, I analyze the customer behavior in the Starbucks rewards mobile
 To solve this problem, I performed **customer segmentation using K-means clustering technique**. 
 The idea is to divide app users into major groups - those more prone to discounts vs. those more keen on bogos vs. those that are not interested in promotions at all.
 
+The full technical report can be found on my blog - [https://www.cross-validated.com/Starbucks-Rewards-Program/](https://www.cross-validated.com/Starbucks-Rewards-Program/)
 
 # Files
 ```
