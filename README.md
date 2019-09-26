@@ -2,9 +2,13 @@
 
 # Requirements
 seaborn==0.9.0
+
 numpy==1.16.4
+
 pandas==0.25.0
+
 matplotlib==3.1.0
+
 scikit_learn==0.21.3
 
 # Motivation
@@ -15,6 +19,7 @@ In this project, I analyze the customer behavior in the Starbucks rewards mobile
 To solve this problem, I performed **customer segmentation using K-means clustering technique**. 
 The idea is to divide app users into major groups - those more prone to discounts vs. those more keen on bogos vs. those that are not interested in promotions at all.
 
+The full technical report can be found on my blog - [https://www.cross-validated.com/Starbucks-Rewards-Program/](https://www.cross-validated.com/Starbucks-Rewards-Program/)
 
 # Files
 ```
@@ -32,8 +37,8 @@ Starbucks_rewards
     |-- 4_Starbucks_refinement.ipynb
     
     |-- README.md
-	  |-- requirements.txt
-	  |-- starbucks_rewards.py	
+    |-- requirements.txt
+    |-- starbucks_rewards.py	
 ```
 
 Data folder contains all initial datasets in json format (portfolio, profile, transcript) and two csv files generated after performing cleaning and aggregation steps.
@@ -46,7 +51,17 @@ The modeling was performed in Jupyter Notebooks and refactored in `starbucks_rew
 
 
 # Results
+**Cluster 1 - "disinterersted" (~40%):**
 
+*This group of customers are predominantly male that just recently became members. They tend to spend not much with below average number of transactions and small average order size. Although slightly more than 60% in this group view offers, they don't complete them.*
+
+**Cluster 2 - "discount-type" (~29%):**
+
+*This group of customers are also mostly male but with the longest membership status (since 2013/2014). They tend to receive more discounts, which they love and actively complete. Their spending habits are slightly above average - they make small orders, but buy frequently.*
+
+**Cluster 3 - "bogo-type" (~31%):**
+
+*This is the only segment where female dominate over male. The customers in this group tend to be older and have higher income. They are loyal customers for few years already. They spend a lot - make huge orders and buy frequently. With such spending habits, no wonder that they are intersted in bogo and get rewarded the most. They complete bogo offers way beyond average, but also react to discounts from time to time.*
 
 # Acknowledgements
 
