@@ -51,15 +51,15 @@ The modeling was performed in Jupyter Notebooks and refactored in `starbucks_rew
 
 
 # Results
-**Cluster 1 - "disinterersted":**
+**Cluster 1 - "disinterersted" (~40%):**
 
 *This group of customers are predominantly male that just recently became members. They tend to spend not much with below average number of transactions and small average order size. Although slightly more than 60% in this group view offers, they don't complete them.*
 
-**Cluster 2 - "discount-type":**
+**Cluster 2 - "discount-type" (~29%):**
 
 *This group of customers are also mostly male but with the longest membership status (since 2013/2014). They tend to receive more discounts, which they love and actively complete. Their spending habits are slightly above average - they make small orders, but buy frequently.*
 
-**Cluster 3 - "bogo-type":**
+**Cluster 3 - "bogo-type" (~31%):**
 
 *This is the only segment where female dominate over male. The customers in this group tend to be older and have higher income. They are loyal customers for few years already. They spend a lot - make huge orders and buy frequently. With such spending habits, no wonder that they are intersted in bogo and get rewarded the most. They complete bogo offers way beyond average, but also react to discounts from time to time.*
 
