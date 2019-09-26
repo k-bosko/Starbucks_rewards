@@ -37,8 +37,8 @@ Starbucks_rewards
     |-- 4_Starbucks_refinement.ipynb
     
     |-- README.md
-	  |-- requirements.txt
-	  |-- starbucks_rewards.py	
+    |-- requirements.txt
+    |-- starbucks_rewards.py	
 ```
 
 Data folder contains all initial datasets in json format (portfolio, profile, transcript) and two csv files generated after performing cleaning and aggregation steps.
