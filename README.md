@@ -1,7 +1,6 @@
 ![Cross-Validated Theme](assets/joel-filipe-small-warmer.jpg "Cross-Validated Theme")
 
-# Target Audience for Direct Marketing 
-# in Starbucks Rewards Mobile App
+# Target Audience for Direct Marketing in Starbucks Rewards Mobile App
 
 Hi,
 
