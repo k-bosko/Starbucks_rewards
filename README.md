@@ -8,28 +8,35 @@ My name is Katerina Bosko and this is my repo for the capstone project "Target A
 
 From Feb 2019 to Sept 2019 I completed a number of projects, including this, as part of [Udacity Data Science Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
 
-In this project, I analyzed customer behavior in the Starbucks rewards mobile app. After signing up for the app, customers receive promotions every few days. The aim of this project is to identify target audience for a successful marketing campaign in direct marketing. Which customers love coupons? Which don't? What types of offers send to whom?
+Jupyter notebooks for project: 
+ - [`1_Starbucks_cleaning.ipynb`](https://github.com/k-bosko/Starbucks_rewards/blob/master/1_Starbucks_cleaning.ipynb) - cleaning, merging, aggregating steps
+ - [`2_Starbucks_EDA.ipynb`](https://github.com/k-bosko/Starbucks_rewards/blob/master/2_Starbucks_EDA.ipynb) - explorative data analysis
+ - [`3_Starbucks_modeling.ipynb`](https://github.com/k-bosko/Starbucks_rewards/blob/master/3_Starbucks_modeling.ipynb) - modeling part: imputing, one-hot encoding, scaling, clustering, results evaluation
+ - [`4_Starbucks_refinement.ipynb`](https://github.com/k-bosko/Starbucks_rewards/blob/master/4_Starbucks_refinement.ipynb) - all the above steps refactored as functions. Modeling under different analytical assumptions
 
-To solve this problem, I performed **customer segmentation using K-means clustering technique**. 
-The idea is to divide app users into major groups - those more prone to discounts vs. those more keen on bogos vs. those that are not interested in promotions at all.
 
-The full technical report can be found [HERE](https://github.com/k-bosko/Starbucks_rewards/blob/master/Capstone_Technical_Report.pdf)
+Technical Report: [HERE](https://github.com/k-bosko/Starbucks_rewards/blob/master/reports/Capstone_Technical_Report.pdf)
 or on my blog - [https://www.cross-validated.com/Starbucks-Rewards-Program/](https://www.cross-validated.com/Starbucks-Rewards-Program/)
+
+Presentation Slides: [HERE](https://github.com/k-bosko/Starbucks_rewards/blob/master/reports/Capstone_presentation.pdf)
 
 For questions or comments, please feel free to reach out on [LinkedIn](http://linkedin.com/k-bosko/).
 
+## Results
+![Slide1](assets/Slide1.jpeg)
+![Slide2](assets/Slide2.jpeg)
+![Slide3](assets/Slide3.jpeg)
+![Slide4](assets/Slide4.jpeg)
+![Slide5](assets/Slide5.jpeg)
+![Slide6](assets/Slide6.jpeg)
+![Slide7](assets/Slide7.jpeg)
+![Slide8](assets/Slide8.jpeg)
+![Slide9](assets/Slide9.jpeg)
+![Slide10](assets/Slide10.jpeg)
+![Slide11](assets/Slide11.jpeg)
+![Slide12](assets/Slide12.jpeg)
+![Slide13](assets/Slide13.jpeg)
+![Slide14](assets/Slide14.jpeg)
 
-# Results
-**Cluster 1 - "disinterersted" (~40%):**
-
-*This group of customers are predominantly male that just recently became members. They tend to spend not much with below average number of transactions and small average order size. Although slightly more than 60% in this group view offers, they don't complete them.*
-
-**Cluster 2 - "discount-type" (~29%):**
-
-*This group of customers are also mostly male but with the longest membership status (since 2013/2014). They tend to receive more discounts, which they love and actively complete. Their spending habits are slightly above average - they make small orders, but buy frequently.*
-
-**Cluster 3 - "bogo-type" (~31%):**
-
-*This is the only segment where female dominate over male. The customers in this group tend to be older and have higher income. They are loyal customers for few years already. They spend a lot - make huge orders and buy frequently. With such spending habits, no wonder that they are intersted in bogo and get rewarded the most. They complete bogo offers way beyond average, but also react to discounts from time to time.*
 
 
